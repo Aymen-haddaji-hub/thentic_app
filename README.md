@@ -2,6 +2,7 @@
 
 * The idea is to create a command line tool that will help you create, mint, transfer, and manage NFTs on the Ethereum blockchain (Ropsten testnet for now).
 * The NFTs utitlity for this project is to be used as a unique identifier or passport for vehicles or cars.
+* users should pay the service fee to benefit from the NFTs utility.
 
 ## Installation
 
