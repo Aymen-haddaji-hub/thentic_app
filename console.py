@@ -4,7 +4,6 @@
 from cmd import Cmd
 import shlex
 from core.nft import *
-from core.nft import get_contract_address, mint_nft, transfer_nft, get_nfts
 import time
 import json
 
@@ -50,7 +49,7 @@ class App(Cmd):
     def do_create_nft_contract(self, args):
         """creates a new NFT smart contract"""
         args = self._key_value_parser(args.split())
-        print(mint_nft())
+        print(create_nft())
 
     def do_get_contract_address(self, args):
         """gets the NFT contract address"""
