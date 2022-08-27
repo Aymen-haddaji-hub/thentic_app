@@ -14,7 +14,7 @@ class App(Cmd):
 
     prompt: str = "[THENTIC-Console]$ "
 
-    def do_help(self, arg: str) -> bool | None:
+    def do_help(self, arg):
         """ shows help """
         return super().do_help(arg)
 
